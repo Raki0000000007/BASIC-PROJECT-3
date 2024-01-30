@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0c1d71;
+}
+h4{
+    color: #77abd7;
+    font-size: 38px;
+    font-family: 'Dancing Script', cursive;
+
+}
+h1{
+    color: white;
+    font-size: 106px;
+    text-align: center;
+}
+.cont-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#77abd7 ;
+    color: black;
+    font-size: 27px;
+    height: 35px;
+}
+h2{
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Pacifico', cursive;
+}
+.main ul{
+    color: white;
+    font-size: 25px;
+    margin: 10px 0vw 0px 8vw;
+    font-family: 'Kanit', sans-serif;
+}
+.cont-2{
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    margin-left: 8vh;
+    margin-top: 20vh;
+}
+.left{
+    color: #f60fa8;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+}
+.right
+{
+    color: #f60fa8;
+    font-size: 29px;
+    text-align: right;
+    font-family: 'Pacifico', cursive;
+}
+.middle img {
+    width: 15vw;
+    margin-left: 7vw;
+}
